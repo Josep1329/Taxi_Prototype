@@ -3,12 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Obstacle
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - player
   - Water
   - UI
   - 
@@ -40,4 +41,22 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: suelo
+    uniqueID: 2202894755
+    locked: 0
+  - name: en medio
+    uniqueID: 956763741
+    locked: 0
+  - name: cielo
+    uniqueID: 4253628951
+    locked: 0
+  - name: tablero fondo
+    uniqueID: 4133628633
+    locked: 0
+  - name: tablero medio
+    uniqueID: 2676209377
+    locked: 0
+  - name: tablero frente
+    uniqueID: 3061276583
     locked: 0

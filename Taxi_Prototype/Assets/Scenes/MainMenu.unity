@@ -1381,7 +1381,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: SampleScene
+          m_StringArgument: save1
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &801004749
@@ -1869,7 +1869,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 543, y: -233}
+  m_AnchoredPosition: {x: 555, y: -362}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1568700573
@@ -1892,7 +1892,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: The mouse to move the speeds (the skull)
+  m_text: Use the mouse to chnage the velocities
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 45398f5f864862f4cb23053eae4f5bf7, type: 2}
   m_sharedMaterial: {fileID: 4535752902676914645, guid: 45398f5f864862f4cb23053eae4f5bf7, type: 2}
@@ -2005,7 +2005,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 543, y: -112}
+  m_AnchoredPosition: {x: 549, y: -101}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1726270262
@@ -2028,7 +2028,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'A & D to dodge
+  m_text: 'WASD to dodge
+
+    Press F to clutch
+
+    Press space to move foward
 
 '
   m_isRightToLeft: 0
